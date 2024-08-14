@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+             height: 200px;
+             width: 200px;
+             border: 10px solid black;
+             background-color: blanchedalmond;
+             border-radius: 50%;
+             position:absolute;
+             top:0;
+             left:0;
+             animation-name: slideMe;
+             animation-duration: 5s;
+             animation-iteration-count: infinite;
+
+
+             
+        }
+        
+        @keyframes slideMe{
+            0%{
+                top:0;
+                left:0;
+            }
+            50%{
+                
+                background-color: blue;
+            }
+            100%{
+                background-color: brown;
+
+            }
+            
+        }
+        
+    </style>
+</head>
+<body>
+<div class="box"></div>
+<p>
+
+</body>
+</html>
